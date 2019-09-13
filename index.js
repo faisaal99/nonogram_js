@@ -15,7 +15,7 @@ function newGame() {
     content.innerHTML = "";
     for(i = 0; i < 10; i++) {
         for (n = 0; n < 10; n++) {
-            const randInt = randomInt(1, 3);
+            const randInt = randomInt(1, 4);
             let html;
             switch (randInt) {
                 case 1:
